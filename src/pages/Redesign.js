@@ -5,7 +5,7 @@ const Redesign = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    // Open Gradio link in new tab  
+    // Open Gradio link in new tab tab  
     window.open('https://ecb35341256029a180.gradio.live', '_blank');
 
     // Navigate the user back to the home page (or any page you prefer)
